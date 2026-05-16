@@ -1,5 +1,5 @@
 // ── API Client ────────────────────────────────────────────
-const BASE_URL = '/api';
+const BASE_URL = 'https://team-task-production-fe0a.up.railway.app/api';;
 
 const Api = (() => {
   function getToken() { return localStorage.getItem('token'); }
